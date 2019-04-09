@@ -9,7 +9,7 @@ public class Collections_Demo {
         //1.构造一副扑克牌
         //先利用两个字符数组，存储52张牌，大小王后面想办法存储到集合
         String[] num = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
-        String[] paise = {"红桃","黑桃","方片","梅花"};
+        String[] paise = {"黑桃","红桃","梅花","方片"};
 
         ArrayList<String> poker = new ArrayList<>();
         for(int i = 0; i < paise.length ; i++) {
